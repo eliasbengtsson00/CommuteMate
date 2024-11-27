@@ -54,36 +54,3 @@ main {
     grid-row: 2 / 3;    
     
   }
-
-
-
-
-
-
-
-
-.box-1, .box-3 {
-    
-    
-}
-.box-2 {
-   
-}
-
-
-
-
-
-
-
-
-
-
-/* .ww_line {
-    
-}
-
-.ww_name, .ww_current, .ww_temp, .ww_cond, .ww_additional, .ww_hour {
-    font-family: "Josefin Sans", sans-serif !important;
-    color: #EA8C49 !important;
-    }
