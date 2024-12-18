@@ -28,8 +28,8 @@ main {
     grid-template-rows: auto auto; 
     justify-content: space-evenly;
     align-content: space-evenly;
-    width: 100lvw; 
-    height: 100lvh;
+    width: 2560px; 
+    height: 1600px;
   }
   
   .box {
