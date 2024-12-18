@@ -1,10 +1,12 @@
 :root {
+    /* Main colors */
     --bg-color: #E1ECEB;
     --dark-green: #3D5554;
     --yellow: #C99C33;
     --white: #ffffff;
     --black: #000000;
 
+    /* Västtrafik colors */
     --bg-eight: #A4449A;
     --bg-six: #F89728;
     --bg-three: #0171C1;
@@ -12,12 +14,9 @@
     --bg-seventeen: #00008E;
     --text-seventeen: #FFFF4F;
 
-    --page-width: 100vw;
-    --page-height: 100vh;
-
+    /* Layout */
     --box-width: 44vw;
     --box-small-height: 41vh;
-    
 }
 
 
@@ -44,6 +43,11 @@ body {
     border: 3px solid var(--black);
     box-shadow: -8px 8px var(--black);
     box-sizing: border-box;
+  }
+
+  .box:active{
+    box-shadow: none;
+    transform: translate(-8px, 8px);
   }
   
   .box-1 {
