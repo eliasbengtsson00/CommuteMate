@@ -11,10 +11,10 @@
     --bg-seventeen: #00008E;
     --text-seventeen: #FFFF4F;
 
-    --page-width: 2560px;
-    --page-height: 1600px;
+    --page-width: 100vw;
+    --page-height: 100vh;
 
-    --box-width: 45vw;
+    --box-width: 44vw;
     --box-small-height: 40vh;
     --box-large-height: 80vh;
 }
@@ -30,11 +30,11 @@ body {
     max-width: 100vw;
     max-height: 100vh;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    gap: 90px;
-    padding: 90px;
-    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4vw;
+    padding: 4vw;
+    box-sizing: border-box;
   }
   
   .box {
@@ -71,12 +71,12 @@ body {
 
   
   #time {
-    font-size: clamp(100px, 20vw, 400px);
+    font-size: 16vw;
     color: var(--white);
     display: inline-block;
   }
   #date {
-    font-size: clamp(50px, 5vw, 100px);
+    font-size: 3vw;
     color: var(--yellow)
   }
 
