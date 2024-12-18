@@ -27,8 +27,8 @@ body {
 }
 
 .grid-container {
-    max-width: var(--page-width);
-    max-height: var(--page-height);
+    max-width: 100lvw;
+    max-height: 100lvh;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
