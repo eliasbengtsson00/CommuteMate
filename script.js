@@ -8,7 +8,7 @@ let startTime = () => {
   }
   
   function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    if (i < 10) {i = "0" + i}; 
     return i;
   }
 
@@ -17,3 +17,4 @@ const day = new Date();
 const month = day.toLocaleString('us-US', { month: 'long' });
 const year = new Date();
 document.getElementById("date").innerHTML = day.getDate() + " " + month + " " + year.getFullYear();
+

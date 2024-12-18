@@ -40,6 +40,8 @@ main {
     background: var(--dark-green);
     width: var(--box-width);
     border-radius: 100px;
+    border: 5px solid black;
+    box-shadow: -8px 8px ;
   }
   
   .box-1 {
@@ -64,15 +66,11 @@ main {
     grid-row: 2 / 3;    
     height: var(--box-s-height);
   }
-
   #time {
     font-size: 400px;
     color: var(--white);
     display: inline-block;
   }
-
-
-
   #date {
     font-size: 100px;
     color: var(--yellow)
