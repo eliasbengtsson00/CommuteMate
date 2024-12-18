@@ -3,6 +3,7 @@
     --dark-green: #3D5554;
     --yellow: #C99C33;
     --white: #ffffff;
+    --black: #000000;
 
     --bg-eight: #A4449A;
     --bg-six: #F89728;
@@ -15,14 +16,14 @@
     --page-height: 100vh;
 
     --box-width: 44vw;
-    --box-small-height: 40vh;
-    --box-large-height: 80vh;
+    --box-small-height: 41vh;
+    
 }
 
 
 body {
     background: var(--bg-color);
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
 }
 
@@ -32,16 +33,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 4vw;
-    padding: 4vw;
+    gap: 6vh 4vw;
+    padding: 6vh 4vw;
     box-sizing: border-box;
   }
   
   .box {
     background: var(--dark-green);
     border-radius: 0px;
-    border: 5px solid black;
-    box-shadow: -8px 8px black;
+    border: 3px solid var(--black);
+    box-shadow: -8px 8px var(--black);
     box-sizing: border-box;
   }
   
@@ -50,7 +51,7 @@ body {
     width: var(--box-width);
     height: var(--box-small-height);
     justify-items: center;
-    align-content: center;
+    align-content: space-evenly;
   }
   
   .box-2 {
@@ -77,7 +78,7 @@ body {
   }
   #date {
     font-size: 3vw;
-    color: var(--yellow)
+    color: var(--yellow);
   }
 
 
